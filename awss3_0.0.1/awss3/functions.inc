@@ -475,11 +475,13 @@ function AWSS3_download($key) {
             $data = $content['Body']->read($length);
             $filename = end(explode('/', $key));
 
-            header('Content-Type: application/octet-stream');
-            $disposition = 'Content-Disposition: attachment; filename="' . $filename . '"';
-            header($disposition);
+            $disposition = 'Content-Disposition: attachment; filename="' . mb_convert_encoding($filename,'SJIS') . '"';
             $contentlength = 'Content-Length: ' . $length;
+
+            header('Content-Type: application/octet-stream; charset=UTF-8');
+            header($disposition);
             header($contentlength);
+            
             echo $data;
         }
     } catch (S3Exception $exc) {
