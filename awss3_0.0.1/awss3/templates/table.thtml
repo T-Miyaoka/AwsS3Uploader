@@ -1,0 +1,19 @@
+<!-- table.thtml { -->
+<div class="uk-overflow-container">
+    <table class="admin-list-table uk-table uk-table-hover uk-table-striped">
+    <thead>
+    <tr>
+      <th class="admin-list-headerfield">削除</th>
+      <th class="admin-list-headerfield">投稿者</th>
+      <th class="admin-list-headerfield">タイトル</th>
+      <th class="admin-list-headerfield">ファイル名</th>
+      <th class="admin-list-headerfield">最終更新日</th>
+    </tr>
+    </thead>
+    <tbody>
+    {list}
+    </tbody>
+    </table>
+</div>
+<p class="admin-list-message" style="">{notfound}</p>
+<!-- } table.thtml -->

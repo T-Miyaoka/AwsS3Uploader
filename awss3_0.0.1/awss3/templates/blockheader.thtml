@@ -1,0 +1,7 @@
+<!-- blockheader.thtml { -->
+<div style="height:70px">
+  <img src="{icon_url}" class="admin-menu-icon">
+  <div style="height:25px"><h2>{lang_piname}</h2></div>
+  <div style="height:45px"><h6>アップロードしたいファイルを選択して、アップロードボタンを押下してください。アップロードされたファイルは、それぞれファイル名の先頭に自動的にタイムスタンプが付与され、S3のバケットで一意に扱われます。</h6></div>
+</div>
+<!-- } blockheader.thtml -->

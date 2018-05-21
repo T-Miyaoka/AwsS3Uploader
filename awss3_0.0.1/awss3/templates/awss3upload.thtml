@@ -1,0 +1,9 @@
+<!-- upload.thtml { -->
+<form method="post" enctype="multipart/form-data"  action=".">
+<input type="hidden" name="mode" value="regist">
+  <div>{meta1}</div><div><input type="text" name="hdname" value="{uname}"></div>
+  <div>{meta2}</div><div><input type="text" name="title"></div>
+  <div style="height:60px;vertical-align:middle;display:table-cell;"><input type="file" name="upfile"></div>
+  <div><button type="submit">アップロード</button></div>
+</form>
+<!-- } upload.thtml -->

@@ -1,0 +1,11 @@
+<!-- topmenu.thtml { -->
+<div id="admin-topmenu" class="clearfix">
+  <img src="{icon_url}" class="admin-menu-icon" alt=""{xhtml}>
+  <div>
+    [ <a href="{site_admin_url}/plugins/awss3/index.php?mode=list" class="admin-menu-item">ファイル一覧</a> | <a href="{site_admin_url}/plugins/awss3/index.php?mode=config" class="admin-menu-item">設定画面</a> | <a href="{site_admin_url}" class="admin-menu-item">管理画面</a> ]
+  </div>
+  <div>
+    ファイルの内容や削除をするには「ファイル一覧」を、S3の接続設定情報を編集する場合は「設定画面」をクリックしてください。
+  </div>
+</div>
+<!-- } topmenu.thtml -->
